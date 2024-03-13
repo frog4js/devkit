@@ -1,0 +1,28 @@
+{
+  "name": "@frog4js/eslint-config",
+  "version": "1.0.0",
+  "description": "Fast and hook-base web framework, for Node.js (devkit-eslint)",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frog4js/devkit.git"
+  },
+  "author": "frogjs@126.com",
+  "license": "ISC",
+  "peerDependencies": {
+  },
+  "dependencies": {
+    "eslint": "^8.51.0",
+    "@babel/eslint-parser": "^7.0.0",
+    "@babel/core": "^7.23.2",
+    "@typescript-eslint/parser": "^6.7.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.5"
+  },
+  "devDependencies": {
+  }
+}

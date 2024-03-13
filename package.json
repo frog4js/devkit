@@ -1,0 +1,9 @@
+{
+  "name": "@frog4js/config",
+  "version": "1.0.0",
+  "description": "Fast and hook-base web framework, for Node.js config package",
+  "private": true,
+  "workspaces": ["eslint", "prettier", "commitlint"],
+  "dependencies": {
+  }
+}
