@@ -1,6 +1,6 @@
 {
   "name": "@frog4js/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast and hook-base web framework, for Node.js (devkit-eslint)",
   "main": "index.js",
   "engines": {

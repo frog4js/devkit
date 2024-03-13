@@ -29,6 +29,8 @@ function build() {
     if (DEFAULT_OPTIONS.types) {
         copy(path.resolve(process.cwd(), DEFAULT_OPTIONS.types), path.resolve(process.cwd(), DEFAULT_OPTIONS.dist, DEFAULT_OPTIONS.types));
     }
+    copy(path.resolve(process.cwd(), 'README.md'), path.resolve(process.cwd(), DEFAULT_OPTIONS.dist));
+    copy(path.resolve(process.cwd(), 'README-zh_CN.md'), path.resolve(process.cwd(), DEFAULT_OPTIONS.dist));
 }
 module.exports = {
     build
