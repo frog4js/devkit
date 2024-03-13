@@ -1,1 +1,1 @@
-# @frog4js/eslint-config
+# @frog4js/eslint
